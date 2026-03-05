@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.pem
+*.key
+credentials.json
+service-account.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if used for tooling)
+node_modules/
+package-lock.json
+
+# Python (if used for tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.so
+*.o
+
+# Logs
+*.log
+
+# Tantivy index data (Phase 2)
+tantivy_data/
