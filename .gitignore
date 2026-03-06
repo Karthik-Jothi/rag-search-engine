@@ -41,3 +41,7 @@ build/
 
 # Tantivy index data (Phase 2)
 tantivy_data/
+
+# Large corpus data files (download separately)
+data/mt-rag-benchmark/corpora/passage_level/*.jsonl
+data/mt-rag-benchmark/corpora/document_level/*.jsonl
